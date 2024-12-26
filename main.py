@@ -4,9 +4,9 @@ import psycopg2
 # Налаштування Faker та PostgreSQL
 fake = Faker()
 connection = psycopg2.connect(
-    dbname="task_management",
-    user="your_user",
-    password="your_password",
+    dbname="task_cs_hw_03",
+    user="postgres",
+    password="221110280921",
     host="localhost",
     port="5432"
 )
